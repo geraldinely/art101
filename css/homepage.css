@@ -1,5 +1,6 @@
 /* this css file will only style the homepage of our site */
-.bunny-drawing {
-    margin: 10px;
-    max-width: 500px;
-  }
+#ao-dai {
+  width:380px;
+  float: right;
+  margin: 10px;
+}
