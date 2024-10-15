@@ -1,6 +1,13 @@
 /* this css file will only style the homepage of our site */
 #ao-dai {
-  width:380px;
-  float: right;
-  margin: 10px;
+  float: left; 
+  width: auto; 
+  max-width: 300px;  
+  margin-right: 20px;  
+  height: 350px;  
+} 
+
+.testimonial {
+  overflow: hidden;
 }
+
