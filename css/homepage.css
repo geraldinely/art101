@@ -7,7 +7,52 @@
   height: 350px;  
 } 
 
-.testimonial {
-  overflow: hidden;
+#content {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
 }
 
+h1 {
+  text-align: center;
+}
+
+#headshot {
+  float: left;  
+  width: 40%; 
+  max-width: 200px;  
+  margin-right: 20px;  
+  height: auto;  
+}
+
+.testimonial {
+  overflow: hidden; 
+  margin-left: 20%; 
+}
+
+.interests {
+  clear: both;  
+  margin-top: 20px;  
+}
+
+.assignments-major-section {
+  margin-top: 40px; 
+}
+
+#links ul {
+  list-style: none; 
+  padding: 0;  
+}
+
+#links li {
+  margin-bottom: 10px; 
+}
+
+#links a {
+  text-decoration: none;
+  color: #007bff; 
+}
+
+#links a:hover {
+  text-decoration: underline; /
+}
