@@ -1,6 +1,16 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - hang-man
+// an implementation of the game
+// geraldine ly <gsly@ucsc.edu>
+// 10/16/2024
+
+//Generate a word or phrase for players to guess
+  //Print hanger as well as head of character
+  //Print blank underscore lines for each letter of secret word or phrase
+    //Players take turn guessing letters of the word/phrase or guess the entire phrase
+    //For each missed letter/phrase, new part of the character/hangman is drawn
+  //Test of win or lose
+//The players win if they guess the entire word before the hangman figure is fully drawn. The Host wins if the hangman is fully drawn (6-7 incorrect guesses) before the players guess the word.
+
 
 // Constants
 

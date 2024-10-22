@@ -1,26 +1,32 @@
 /* this css file will only style the homepage of our site */
 #ao-dai {
   float: left; 
-  width: auto; 
+  width: 100%; 
   max-width: 300px;  
   margin-right: 20px;  
   height: 350px;  
+  object-fit:cover;
 } 
 
 #content {
-  max-width: 800px; 
+  max-width: 1000px; 
   margin: 0 auto; 
   padding: 20px; 
+    background-color: #e8dec3;
+  box-shadow: 0 4px 8px
 }
 
 h1 {
   text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px
+  color:rgb(142, 35, 37);
 }
 
 #headshot {
   float: left;  
   width: 40%; 
-  max-width: 200px;  
+  max-width: 200px;
   margin-right: 20px;  
   height: auto;  
 }
