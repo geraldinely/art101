@@ -12,53 +12,84 @@
   max-width: 1000px; 
   margin: 0 auto; 
   padding: 20px; 
-    background-color: #e8dec3;
+    background-color: #ece7da;
   box-shadow: 0 4px 8px
 }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&family=Pacifico&display=swap');
 
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: #ffe6f2;
+  color: #b30047;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: #fff0f5;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+header {
   text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #ff66b2;
+  text-shadow: 1px 1px 2px #ff99cc;
+}
+
+header p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  color: #ff3399;
+}
+
+section {
+  background-color: #ffe6f2;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #ff4da6;
   font-size: 2.5em;
-  margin-bottom: 20px
-  color:rgb(142, 35, 37);
+  margin-bottom: 15px;
 }
 
-#headshot {
-  float: left;  
-  width: 40%; 
-  max-width: 200px;
-  margin-right: 20px;  
-  height: auto;  
+section p {
+  line-height: 1.6;
+  font-size: 1.2em;
+  color: #b30047;
+  font-family: 'Pacifico', cursive;
 }
 
-.testimonial {
-  overflow: hidden; 
-  margin-left: 20%; 
-}
 
-.interests {
-  clear: both;  
-  margin-top: 20px;  
-}
-
-.assignments-major-section {
-  margin-top: 40px; 
-}
-
-#links ul {
-  list-style: none; 
-  padding: 0;  
-}
-
-#links li {
-  margin-bottom: 10px; 
-}
-
-#links a {
-  text-decoration: none;
-  color: #007bff; 
-}
-
-#links a:hover {
-  text-decoration: underline; /
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  color: #ff4da6;
+  font-size: 1.2em;
+  font-family: 'Great Vibes', cursive;
 }
