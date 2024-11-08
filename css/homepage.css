@@ -3,93 +3,87 @@
   float: left; 
   width: 100%; 
   max-width: 300px;  
-  margin-right: 20px;  
+  margin-right: 40%;  
   height: 350px;  
   object-fit:cover;
 } 
 
-#content {
-  max-width: 1000px; 
-  margin: 0 auto; 
-  padding: 20px; 
-    background-color: #ece7da;
-  box-shadow: 0 4px 8px
-}
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&family=Pacifico&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.testimonial {
+  width: 40%; /* Adjust width as needed */
+  position: relative;
+  top: -25px
+  left: 60%; /* Adjust this to control how far left or right it sits */
+  text-align: right;
 }
+
+
 
 body {
-  font-family: 'Pacifico', cursive;
-  background-color: #ffe6f2;
-  color: #b30047;
-  padding: 20px;
+  background-color: #ffe6f0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  background-color: #fff0f5;
-  padding: 30px;
-  margin: 20px auto;
-  border-radius: 30px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  
-}
-
-header {
+h1 {
+  color: #ff69b4;
   text-align: center;
-  padding: 20px 0;
-}
-
-header h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3em;
-  color: #ff66b2;
-  text-shadow: 1px 1px 2px #ff99cc;
-}
-
-header p {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.2em;
-  color: #ff3399;
+  margin-top: 20px;
+  font-size: 2.5em;
 }
 
 section {
-  background-color: #ffe6f2;
+  background-color: #ffffff;
   border-radius: 15px;
   padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px;
 }
 
-section h2 {
-  font-family: 'Great Vibes', cursive;
-  color: #ff4da6;
-  font-size: 2.5em;
-  margin-bottom: 15px;
+p, li {
+  font-size: 1.1em;
+  color: #666;
 }
 
-section p {
-  line-height: 1.6;
-  font-size: 1.2em;
-  color: #b30047;
-  font-family: 'Pacifico', cursive;
+a {
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+a:hover {
+  color: #ff1493;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
 
 footer {
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  color: #ff4da6;
-  font-size: 1.2em;
-  font-family: 'Great Vibes', cursive;
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 20px;
 }
