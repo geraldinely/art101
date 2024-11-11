@@ -1,5 +1,5 @@
 // Author: Geraldine Ly
-// Date: 10/28/2024
+// Date: 11/10/2024
 
 function isEven(x){
     return (x % 2 == 0);
