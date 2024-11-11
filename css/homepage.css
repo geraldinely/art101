@@ -10,13 +10,12 @@
 
 
 .testimonial {
-  width: 40%; /* Adjust width as needed */
+  width: 40%; 
   position: relative;
   top: -25px
-  left: 60%; /* Adjust this to control how far left or right it sits */
+  left: 60%; 
   text-align: right;
 }
-
 
 
 body {
