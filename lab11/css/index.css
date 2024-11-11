@@ -50,10 +50,3 @@ min-height: 300px;
 padding: 10px;
 border: solid 1px #c78996; 
 font-size: 30px; }
-
-.special {
-  background-color: lavender;
-  border: dotted 50px rgba(0, 255, 247, 0.256);
-  color: pink;
-  font-weight: bold;
-}
