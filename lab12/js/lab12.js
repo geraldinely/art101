@@ -27,12 +27,4 @@ function familySorting(str) {
 
 var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
-  var name = document.getElementById("input").value;
-  var family = familySorting(name);
-  
-  // Separate the text and family
-  let newText = "<p>You belong to...</p>";
-  let familyText = "<span class='family'>" + family + "</span>";
-
-  document.getElementById("output").innerHTML = newText + familyText;
-});
+  var name = document.getElement
